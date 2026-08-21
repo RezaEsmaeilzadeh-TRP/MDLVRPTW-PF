@@ -2,7 +2,8 @@
 Implementation of the ALNS framework used in this study.
 
 The code supports different experimental runs and parameter configurations for
-both the Roulette-Wheel (ALNS-RW) and Unified-Logit (ALNS-UL) selection methods.
+both the Roulette-Wheel (ALNS-RW) and Unified-Logit (ALNS-UL) selection methods. 
+For each run just need to change related parameters.
 
 The parameter values can be modified directly in the main configuration section,
 including random seeds, iteration limits, stopping criteria, destroy/repair
