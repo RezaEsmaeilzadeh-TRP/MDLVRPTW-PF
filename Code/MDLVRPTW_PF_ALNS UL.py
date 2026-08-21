@@ -1,3 +1,14 @@
+"""
+Implementation of the ALNS framework used in this study.
+
+The code supports different experimental runs and parameter configurations for
+both the Roulette-Wheel (ALNS-RW) and Unified-Logit (ALNS-UL) selection methods.
+
+The parameter values can be modified directly in the main configuration section,
+including random seeds, iteration limits, stopping criteria, destroy/repair
+settings, config parameters(like number of iterations, patience and others), and operator-selection parameters.
+"""
+
 import math
 import os
 import random
